@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(187, 209, 211);
+    text-align: center;
+    margin: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+  }
+  img {
+    padding: 0;
+    border-radius: 4px;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: max-content;
+}
+li{
+    float: left;
+}  
+a:link {
+    color: rgb(102, 102, 112);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(17, 43, 68);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(90, 45, 128);
+    background-color: transparent;
+    text-decoration: none;
+  }

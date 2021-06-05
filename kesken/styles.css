@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Play', sans-serif;
+}
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Text styles */
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+  
+  /* Background styles */
+  background-image: url('tausta.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/*navigaatio palkki*/
+nav {
+  height: 1.875em;
+  background-color: #E49A2F;
+  color: #F7F5EE;
+  text-align: center;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* linkkien tyylit */
+ul{
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  width: max-content;
+}
+li{
+  float: left;
+}  
+li a{
+  display: block;
+  color: #F7F5EE;
+  text-align: center;
+  text-decoration: none;
+  height: max-content;
+  padding: 0.156em 1em;
+}  
+a:hover:not(.active) {
+  background-color: #db8308;
+}  
+.active {
+  background-color:rgb(95, 74, 23);
+}
+a:link {
+  color: #473112;
+  text-decoration: none;
+}

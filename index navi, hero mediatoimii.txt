@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Suvin harjoitustyö</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Tulevan web developperin portfolio">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Suvi Jääskeläinen">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aff285a600.js" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+    <!-- navigaatio alkaa-->
+    <div class="topnav" id="myTopnav">
+      <a href="#hero" class="active"><i class="fas fa-arrow-up"></i></a>
+      <a href="#who">Kuka olen?</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#hobbies">Harrastukset</a>
+      <a href="#contact">Ota yhteyttä!</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- hero otsikko alkaa-->
+    <section>
+        <div class="main" id="hero"></div>
+        <section class="hero">
+            <div class="hero-inner">
+            <h1>Suvi Jääskeläinen</h1>
+            <h2>Tulevaisuuden Web Developer kasvamassa</h2>
+            <a href="#who" class="btn">Kuka olen?</a>
+            </div>
+      </section>
+    </section>
+    <!-- esittely alkaa-->
+    <section>
+        <div class="main" id="who"></div>
+        <section class ="section">
+            <br>
+            <h1 class="heading">Kuka olen?</h1>
+            <section class="content_left">
+              <img src="images/kuva.jpg"  alt="Suvi"/>
+            </section> <!-- content left end-->
+            <section class="content_right"> <!--content right start-->
+                <h2 class="h">Hei olen Suvi!</h2> 
+                <p class="p">Olen 36 vuotias nainen Pääkaupunkiseudulta. Olen koulutukseltani luonnontieteiden kandidaatti pääaineena maantiede ja sivuaineena geoinformatiikka, biologia sekä opettajan pedagogiset opinnot. Olen työskennellyt 8 vuotta Sea Life Helsingissä oppaana ja vuoropäällikkönä. Työkuvaani kuului mm. asiakkaille näyttelyn eläinten esittely ja opastaminen. Työni päättyi valitettavasti ja ironisesti allergisoitumiseen kaloille ja äyriäisille. Intohimona minulla on kuitenkin edelleen kaikki merten eläimet ja ympäristönsuojelu. Ystävien ja tuttavien piirissä olen "se kalatäti", joka mielellään heittelee knoppitietoa merten elävistä. Tällä hetkellä työskentelen Verohallinnolla verosihteerinä. Alanvaihdos on kuitenkin muhinut pitkään mielessäni ja ICT-ala on kiinnostanut minua pitkään. Olen opiskellut Helsingin Avoimessa Yliopistossa vapaa-aikanani tietojenkäsittelytieteen opintoja ja opiskellut mm. ohjelmointia Java ja Python kielellä. Nyt olen hakemassa opiskelemaan Jyväskylän ammattikorkeakouluun tieto- ja viestintätekniikan koulutusohjelmaan. Toivon tulevani valituksi kyseiseen koulutukseen, jotta tulevaisuudessa valmistuisin insinööriksi.</p>
+            </section> <!-- content right end-->
+        </section>
+    </section>
+    <br>
+    <section>
+        <div class="main" id="portfolio"></div>
+        <section class="section">
+            <h1 class="heading">Portfolio</h1>
+            <h2 class="heading_little">Työkokemus ja koulutus</h2>
+            <div class="timeline">
+                <div class="container left">
+                  <div class="content">
+                    <h3>2018 - nykyhetki</h3>
+                    <h2>Verosihteeri</h2>
+                    <h3>Verohallinto</h3>
+                    <p>- verosihteeri</p>
+                    <p>- perehdyttäjä</p>
+                    <p>- OmaVero vastuukäyttäjä</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h3>2016 - 2018</h3>
+                    <h2>Prosessioperaattori</h2>
+                    <h3>Murata Electronics Oy</h3>
+                    <p>- prosessioperaattori, erikoisosaaminen litografia</p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="content">
+                    <h3>2012-2016</h3>
+                    <h2>Vuoropäällikkö</h2>
+                    <h3>SeaLife Helsinki Oy</h3>
+                    <p>- vuoropäällikkö</p>
+                    <p>- OpasNetin sisällöntuottaja</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h3>2012</h3>
+                    <h2>Luonnontieteiden kandidaatti</h2>
+                    <h3>Helsingin Yliopisto</h3>
+                    <p>- pääaine luonnonmaantiede</p>
+                    <p>- sivuaineet: geoinformatiikka, biologia ja kasvatustiede</p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="content">
+                    <h3>2004</h3>
+                    <h2>Ylioppilas</h2>
+                    <h3>Lahden Yhteiskoulu</h3>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+          <h2 class="heading_little">Osaaminen</h2>
+          <section class ="section">
+            <br>
+            <section class="content_evenleft">
+              <h1 class="h">Ohjelmointi</h1>
+              <p class="p">• Java - alkeet</p>
+              <p class="p">• Python - alkeet</p>
+            </section> <!-- content left end-->
+            <section class="content_evenright"> <!--content right start-->
+              <h class="h">Kielitaito</h>
+              <p class="p">• suomi - äidinkieli</p>
+              <p class="p">• englanti - hyvä</p>
+              <p class="p">• ruotsi - alkeet</p>
+            </section> <!-- content right end-->
+        </section>
+        </section>
+    </section>
+    <br>
+    <div class="main" id="hobbies"></div>
+    <section>
+      <h1 class="heading">Harrastukset</h1>
+      <section class ="section"> 
+        <section class="content_left">
+            <div style="text-align: center"> 
+              <a href="images/mustarastas.JPG" data-lightbox="Linnut" data-title="Mustarastas"><img style="width: 100px; height: auto;" src="images/mustarastas.JPG"  alt="Mustarastas"/></a> 
+              <a href="images/pikkuvarpunen.JPG" data-lightbox="Linnut" data-title="Pikkuvarpunen"><img style="width: 100px; height: auto;" src="images/pikkuvarpunen.JPG"  alt="Pikkuvarpunen"/></a> 
+          </div>
+            </section> <!-- content left end-->
+            <section class="content_right"> <!--content right start-->
+                <h2 class="h">Lintubongaus</h2> 
+                <p class="p">tekstiä</p>
+              </section> <!-- content right end-->
+        </section>
+        <section class="content_left">
+          <img style="width: 100% height auto;" src="images/doget.jpg"  alt="Suvi"/>
+        </section> <!-- content left end-->
+        <section class="content_right"> <!--content right start-->
+            <h2 class="h">Geokätköily</h2> 
+            <p>geokätköily</p>
+        </section> <!-- content right end-->
+    </section>
+    <div class="main" id="contact"></div>
+      <footer>
+        <h1 class="heading">Ota yhteyttä!</h1>
+        <img style="height: 300px; width: auto;" src="images/mina.JPG"  alt="Suvi"/>
+        <br>
+        <p>Puhelinnumero: +358 40 XXX XXXX   •   Sähköposti: <a href="mailto:AB4061@student.jamk.fi">AB4061@student.jamk.fi</a></p>
+      </footer>
+    
+    <!-- SKRIPTIT ALKAA-->
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+// navigaatiopalkki responsiivinen //
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+
+</script>
+</body>
+</html>

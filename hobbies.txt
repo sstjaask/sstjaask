@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Suvin harjoitustyö</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Tulevan web developperin portfolio">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Suvi Jääskeläinen">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aff285a600.js" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+  <main>
+    <nav id="main">
+    <ul>
+        <li><a href="#top" class="scroll"></a></li>
+        <li><a href="#middle" class="scroll"></a></li>
+        <li><a href="#bottom" class="scroll"></a></li>
+    </ul>
+</nav>
+<section id="top">
+    1
+</section>
+
+<section id="middle">
+    2
+</section>
+
+<section id="bottom">
+    3
+</section>
+
+    
+    <div class="main" id="contact"></div>
+      <footer>
+        <h1 class="heading">Ota yhteyttä!</h1>
+        <img style="height: auto; width: auto;" src="images/mina.JPG"  alt="Suvi"/>
+        <br>
+        <p>Puhelinnumero: +358 40 XXX XXXX   •   Sähköposti: <a href="mailto:AB4061@student.jamk.fi">AB4061@student.jamk.fi</a></p>
+      </footer>
+    
+    <!-- SKRIPTIT ALKAA-->
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+  
+    </script>
+    </main>
+  </body>
+</html>

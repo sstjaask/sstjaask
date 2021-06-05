@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Suvin harjoitustyö</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Tulevan web developperin portfolio">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Suvi Jääskeläinen">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aff285a600.js" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+  <main>
+    <!-- navigaatio alkaa-->
+    <div class="topnav" id="myTopnav">
+      <a href="#hero" class="active"><i class="far fa-arrow-alt-circle-up"></i></a>
+      <a href="#who">Kuka olen?</a>
+      <a href="#timeline">Koulutus & työkokemus</a>
+      <a href="#skills">Erityisosaaminen</a>
+      <a href="#hobbies">Harrastukset</a>
+      <a href="#contact">Ota yhteyttä!</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i> </a>
+    </div>
+    <!-- hero otsikko alkaa-->
+    <section>
+        <div class="main" id="hero"></div>
+        <section class="hero">
+            <div class="hero-inner">
+            <h1>Suvi Jääskeläinen</h1>
+            <h2>Tulevaisuuden Web Developer kasvamassa</h2>
+            <!-- <a href="#who" class="btn">Aloitetaan</a> -->
+            </div>
+      </section>
+    </section>
+    <!-- esittely alkaa-->
+    <section>
+        <div class="main" id="who"></div>
+        <section class ="section">
+            <br>
+            <h1 class="heading">Kuka olen?</h1>
+            <section class="content_left">
+              <img src="images/kuva.jpg"  alt="Suvi"/>
+            </section> <!-- content left end-->
+            <section class="content_right"> <!--content right start-->
+                <h2 class="h">Hei olen Suvi!</h2> 
+                <p class="p">Olen 36-vuotias nainen pääkaupunkiseudulta hakeutumassa uusille urille elämässä. Työskentelen tällä hetkellä verosihteerinä, mutta olen hakemassa opiskelupaikkaa tieto- ja viestintätekniikan insinöörin koulutusohjelmassa. Olen opiskellut tietojenkäsittelytieteitä itsenäisesti mm. avoimen yliopiston kursseja suorittamalla ja opintoja suorittamalla innostunut alasta entistä enemmän. Minua kiinnostaa erityisesti ohjelmistokehitys, data-analytiikka ja tekoäly ja olen erittäin innokas kehittämään osaamistani. Tavoitteenani on valmistua ICT-asiantuntijaksi tulevaisuudessa. </p>
+            </section> <!-- content right end-->
+        </section>
+    </section>
+    <br>
+    <section>
+        <div class="main" id="timeline"></div>
+        <section class="section">
+            <h1 class="heading">Koulutus & työkokemus</h1>
+            <div class="timeline">
+                <div class="container left">
+                  <div class="content">
+                    <h3>2018 - nykyhetki</h3>
+                    <h2>Verosihteeri</h2>
+                    <h3>Verohallinto</h3>
+                    <p>- verosihteeri</p>
+                    <p>- perehdyttäjä</p>
+                    <p>- OmaVero vastuukäyttäjä</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h3>2016 - 2018</h3>
+                    <h2>Prosessioperaattori</h2>
+                    <h3>Murata Electronics Oy</h3>
+                    <p>- prosessioperaattori, erikoisosaaminen litografia</p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="content">
+                    <h3>2012-2016</h3>
+                    <h2>Vuoropäällikkö</h2>
+                    <h3>SeaLife Helsinki Oy</h3>
+                    <p>- vuoropäällikkö</p>
+                    <h2>Popup</h2><div class="popup" onclick="myFunction()">Click me to toggle the popup!<span class="popuptext" id="myPopup">A Simple Popup!</span></div>
+                    <p>- OpasNetin sisällöntuottaja</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h3>2012</h3>
+                    <h2>Luonnontieteiden kandidaatti</h2>
+                    <h3>Helsingin Yliopisto</h3>
+                    <p>- pääaine luonnonmaantiede</p>
+                    <p>- sivuaineet: geoinformatiikka, biologia ja kasvatustiede</p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="content">
+                    <h3>2004</h3>
+                    <h2>Ylioppilas</h2>
+                    <h3>Lahden Yhteiskoulu</h3>
+                  </div>
+                </div>
+              </div>
+        </section>
+      </section>
+        <section>
+          <div class="main" id="skills"></div>
+          <section class ="section">
+            <h1 class="heading">Erityisosaaminen</h1>
+              <section class="content_third"> <!--content right start-->
+                  <h3 class="h2"><strong>Kielitaito</strong></h3> 
+                  <p><strong>suomi</strong> - äidinkieli</p>
+                  <p><strong>englanti</strong> - hyvä</p>
+                  <p><strong>ruotsi</strong> - alkeet</p>
+              </section> <!-- content right end-->
+              <section class="content_third"> <!--content right start-->
+                <h3 class="h2"><strong>Ohjelmointi</strong></h3> 
+                <p><strong>Java</strong> - alkeet</p>
+                <p><strong>Python</strong> - alkeet</p>
+              </section> <!-- content right end-->
+              <section class="content_third"> <!--content right start-->
+              <h3 class="h2"><strong>Tietojenkäsittelyn opinnot</strong></h3> 
+                <h4 class="h2">Helsingin Yliopisto</h4>
+                <p><strong>Tekoälyn perusteet</strong></p>
+                <p><strong>Cyber Security Base: Introduction to Cyber Security</strong></p>
+                <p><strong>Tietokoneen toiminnan perusteet</strong></p>
+                <p><strong>Ohjelmoinnin perusteet</strong></p>
+          </section> <!-- content right end-->
+      </section>
+    </section>
+    <div class="main" id="hobbies"></div>
+    <section>
+      <h1 class="heading">Harrastukset</h1>
+      <section class ="section">
+        <section class="content_leftbackg"> <!-- content left start-->
+          <h1 class="h">Koirat ja ulkoilu</h1> 
+          <p class="p">Perheeseemme kuuluu kaksi koiraa: shetlanninlammaskoira <b>Reino</b> ja stabyhoun <b>Rally</b>. Koirat ovat aina olleet lähellä sydäntäni ja koirieni kanssa olen harrastanut mm. agilitya, mantrailingia ja jäljestystä. Koirieni kanssa tärkeintä on kuitenkin ulkoilu ja liikkuminen. </p>
+        </section> <!-- content left end -->
+        <section class="content_left"> <!--content right start-->
+          <div style="text-align: center"> 
+            <a href="images/doget.jpg" data-lightbox="Rally ja Reino" data-title="stabyhoun Rally ja shetlanninlammaskoira Reino"><img style="width: 100%; height: auto;" src="images/doget_web.jpg"  alt="Reino ja Rally"/></a>
+          </div>
+        </section> <!-- content right end-->
+      </section>
+      <section class ="section">
+        <section class="content_leftbackg"> <!-- content left start-->
+          <h1 class="h">Lintubongaus</h1> 
+          <p class="p">Viime aikoina olen löytänyt itselleni uuden harrastuksen: Lintubongauksen. Biologian opinnoissani olen suorittanut lintujen tunnistamiskurssin. Todellinen innostus iski vuonna 2021, kun törmäsin BirdLife Suomen järjestämään haasteeseen “Tunnista 100 lintulajia”. Harrastuksessa ja haasteessa minut innosti alkuun sen tietty vaivattomuus. Bongauksen saattoi aloittaa ilman mitään suuria alkuinvestointeja ja lintujen bongaus onnistuu koska vaan. Harrastus kannustaa entistä enemmän liikkumaan luonnossa ja kasvattamaan omaa luonnontuntemusta.</p>
+        </section> <!-- content left end -->
+        <section class="content_left"> <!--content right start-->
+          <div style="text-align: center"> 
+            <a href="images/mustarastas.JPG" data-lightbox="koirat" data-title="Mustarastas"><img style="width: auto; height: 12em;" src="images/mustarastas.JPG"  alt="Mustarastas"/></a> 
+            <a href="images/pikkuvarpunen.JPG" data-lightbox="koirat" data-title="Pikkuvarpunen"><img style="width: auto; height: 12em;" src="images/pikkuvarpunen.JPG"  alt="Pikkuvarpunen"/></a> 
+          </div>
+        </section> <!-- content right end-->
+      </section>
+      <section class ="section">
+        <section class="content_leftbackg"> <!-- content left start-->
+          <h1 class="h">Geokätköily</h1> 
+          <p class="p">Geokätköily on toinen harrastuksistani, joka ei vaadi paljoa toteutukseen. Geokätköilyn tarkoituksena on etsiä tiettyyn koordinaattipisteeseen piilotettu säiliö, jonka sisällä olevaan logiin kirjataan oma vierailu. Geokätköilyn helppus on, että sitä voi harrastaa missä päin maailmaan tahansa, luonnossa tai urbaanissa ympäristössä.</p>
+        </section> <!-- content left end -->
+        <section class="content_left"> <!--content right start-->
+          <div style="text-align: center"> 
+            <a href="images/katkoily.jpg" data-lightbox="Katkot" data-title="Kätköjä kartalla"><img style="width: auto; height: 12.5em;" src="images/geoweb.jpg"  alt="Kätköjä kartalla"/></a>
+          </div>
+        </section> <!-- content right end-->
+      </section>
+    </section>
+    <div class="main" id="contact"></div>
+      <footer>
+        <h1 class="heading">Ota yhteyttä!</h1>
+        <img style="height: auto; width: auto;" src="images/mina.JPG"  alt="Suvi"/>
+        <br>
+        <p>Puhelinnumero: +358 40 XXX XXXX   •   Sähköposti: <a href="mailto:AB4061@student.jamk.fi">AB4061@student.jamk.fi</a></p>
+      </footer>
+    
+    <!-- SKRIPTIT ALKAA-->
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    // When the user clicks on div, open the popup
+      // navigaatiopalkki responsiivinen //
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+      
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+      
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      $('#topnav a').click(function () {
+    $('#topnav a.active').removeClass('active');
+    $(this).addClass('active');
+});
+$(window).scroll(function () {
+    var href = $(this).scrollTop();
+    $('.link').each(function (event) {
+        if (href >= $($(this).attr('href')).offset().top - 1) {
+            $('#topnav a.active').removeClass('active');
+            $(this).addClass('active');
+        }
+    });
+});
+
+    </script>
+    </main>
+  </body>
+</html>
